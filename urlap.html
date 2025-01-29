@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nao</title>
+    <link rel="stylesheet" href="stilus.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Űrlap</h1>
+            <nav>
+                <ul>
+                    <li ><a id="kezdolap" href="urlap.html">Űrlap</a></li>
+                    <li ><a href="index.html">Kezdőlap</a></li>
+                </ul>
+                <ul>
+                    <li><a href="index.html">Menü 1</a></li>
+                    <li><a href="index.html">Menü 2</a></li>
+                    <li><a href="index.html">Menü 3</a></li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+            <form action="asd.php" method="get">
+                <fieldset>
+                    <legend>Adatok</legend>
+                <div class="alt">
+                    <label for="vnev">Vezetéknév</label>
+                    <input type="text" name="vnev" id="vnev" placeholder="Kovács">
+                </div>
+                <div class="alt">
+                    <label for="knev">Keresztnév</label>
+                    <input type="text" name="knev" id="knev" placeholder="Ferenc">
+                </div>
+                <div class="alt">
+                    <label for="szulev">Születési év</label>
+                    <input type="number" name="szulev" id="szulev" placeholder="éééé. hh. nn.">
+                </div>
+                <div class="alt">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" placeholder="email@gmail.com">
+                </div>
+                <div class="alt">
+                    <label for="tel">Telefonszám</label>
+                    <input type="text" name="tel" id="tel" placeholder="pl:+36-30-330-3033">
+                </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Nem</legend>
+                <div class="radio">
+                    <label for="ferfi">Férfi</label>
+                    <input type="radio" id="ferfi" name="nem" value="Férfi">
+                    <label for="no">Nő</label>
+                    <input type="radio" id="no" name="nem" value="Nő">
+                    <label for="mas">Más</label>
+                    <input type="radio" id="mas" name="nem" value="Más">
+                </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Igazolvány</legend>
+                 <div>
+                    <label for="szemelyi">Személyi</label>
+                    <input type="checkbox" id="szemelyi" name="igazolvany" value="Személyi">
+                    <label for="diak">Diák</label>
+                    <input type="checkbox" id="diak" name="igazolvany" value="Diák">
+                    <label for="egyetem">Jogosítvány</label>
+                    <input type="checkbox" id="jogsi" name="igazolvany" value="Jogosítvány">
+                 </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                <legend>Állat</legend>
+                <div>
+                    <select name="allatok" id="allatok">
+                        <option value="cica">cica</option>
+                        <option value="kutya">kutya</option>
+                        <option value="pingvin">pingvin</option>
+                        <option value="suni">süni</option>
+                        <option value="mosomedve">mosómedve</option>
+                    </select>
+                </div>
+                </fieldset>
+                <div>
+                    <input type="submit" value="Küld">
+                </div>
+            </form>
+        </article>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Kezdőlap</a></li>
+                    <li><a href="index.html">Menü 3</a></li>
+                    <li><a href="index.html">Menü 2</a></li>
+                    <li><a href="index.html">Menü 1</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </main>
+</body>
+</html>

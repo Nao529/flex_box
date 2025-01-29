@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    color: gray;
+}
+nav {
+    border: 1px solid black;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+    margin: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    list-style-type: none;
+    padding: 0px;
+}
+header nav ul {
+    display: flex;
+    flex-direction: row-reverse;
+}
+nav ul li a {
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+#kezdolap {
+    background-color: rgb(210, 0, 0);
+}
+article {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+article div {
+    border: 1px solid black;
+    background-color: gray;
+    flex: 1 0 22%;
+    margin: 5px;
+}
+h3 {
+    border: 1px solid black;
+    background-color: rgb(210, 0, 0);
+    margin: 10px;
+    padding: 10px;
+}
+p {
+    padding: 10px;
+}
+footer nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+legend, label{
+    color: black;
+}
+fieldset div {
+    background-color: white;
+}
+form {
+    max-width: 400px;
+    margin: auto;
+}
+form fieldset {
+    padding: 10px;
+    background-color: gray;
+}
+form .alt {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+form .alt label, form .radio {
+    text-align: let;
+    padding-right: 8px;
+}
+form .radio {
+    display: grid;
+    grid-template-columns: 70px 50px;
+}
